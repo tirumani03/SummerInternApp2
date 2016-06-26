@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.saratchandra.summerinternapp">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-feature android:name="android.hardware.camera" android:required="true" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/mylogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".CalculateSI">
+
+
+        </activity>
+        <activity android:name=".MainActivity">
+
+                   </activity>
+        <activity android:name=".Login">
+
+        </activity>
+        <activity android:name=".Home">
+
+        </activity>
+        <activity android:name=".Checkboxtest">
+
+        </activity>
+        <activity android:name=".Myanimation">
+
+        </activity>
+        <activity android:name=".SplashScreen"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".SpinnerTask">
+
+        </activity>
+        <activity android:name=".Camera">
+
+        </activity>
+        <activity android:name=".Gallery">
+
+        </activity>
+        <activity android:name=".All">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".ManipulateText"></activity>
+       <activity android:name=".Email"></activity>
+        <activity android:name=".Message"></activity>
+        <activity android:name=".Rating"></activity>
+        <activity android:name=".ListViewTask"></activity>
+        <activity android:name=".Call"></activity>
+        <activity android:name=".SessionManagement"></activity>
+        <activity android:name=".UsageStats"></activity>
+        <activity android:name=".ManageContacts"></activity>
+        <activity android:name=".Website"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/NoTheme"/>
+        <activity android:name=".LoginDatabase"></activity>
+        <activity android:name=".LoginTable"></activity>
+        <activity android:name=".HomeDatabase"></activity>
+        <activity android:name=".DreamCall"></activity>
+       <activity android:name=".LoginSql"></activity>
+        <activity android:name=".NotificationTime"></activity>
+        <activity android:name=".GridViewExample"></activity>
+        <activity android:name=".JsonExample"></activity>
+        <activity android:name=".ContentProviderExample"></activity>
+        <activity android:name=".FragmentExample"></activity>
+        <activity android:name=".AlertDialogExample"></activity>
+        <activity android:name=".ServiceExample">
+            <service
+                android:name=".MyService"
+                android:enabled="true"></service>
+        </activity>
+    </application>
+
+</manifest>

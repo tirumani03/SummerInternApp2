@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.saratchandra.summerinternapp.LoginDatabase">
+    <EditText
+        android:id="@+id/duser"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"/>
+    <EditText
+        android:id="@+id/dpwd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textWebPassword"/>
+    <Button
+        android:id="@+id/denter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:id="@+id/dclear"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dremember"
+        android:text="Remember me"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dpermission"/>
+
+</LinearLayout>

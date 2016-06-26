@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<EditText
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/first_name"
+    android:hint="Enter First name"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:id="@+id/number"
+        android:hint="Enter phone number"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:id="@+id/add_contact"
+        android:text="ADD Contact"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:id="@+id/remove_contact"
+        android:text="Remove contact" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:id="@+id/update_contact"
+        android:text="Update contact"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:id="@+id/view_contacts"
+        android:text="View contacts"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lis"
+        android:text="ALL contacts"
+        android:textSize="18dp"/>
+</LinearLayout>

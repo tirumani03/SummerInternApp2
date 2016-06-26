@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.saratchandra.summerinternapp.LoginSql">
+    <EditText
+        android:id="@+id/suser"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"/>
+    <EditText
+        android:id="@+id/spwd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textWebPassword"/>
+    <Button
+        android:id="@+id/senter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:id="@+id/sclear"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sremember"
+        android:text="Remember me"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spermission"/>
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ulist">
+
+    </ListView>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/sdisplay"/>
+
+</LinearLayout>
